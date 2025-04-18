@@ -95,7 +95,7 @@ public class PostAPI {
 
 //    게시글 삭제(DELETE)
     @Operation(summary = "게시글 삭제", description = "게시글을 삭제할 수 있는 API")
-    @ApiResponse(responseCode = "200", description = "게시글 성공")
+    @ApiResponse(responseCode = "200", description = "게시글 삭제 성공")
     @Parameter(
             name = "id",
             description = "게시글 번호",

@@ -91,7 +91,7 @@ public class MemberAPI {
             in = ParameterIn.PATH,
             required = true
     )
-    @DeleteMapping("remove")
+    @DeleteMapping("remove/{id}")
     public void remove(@PathVariable Long id) {
 //        매개 변수를 원래 받지않는다.
 //        세션에 저장된 회원의 id을 삭제
